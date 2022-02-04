@@ -1,0 +1,134 @@
+body{
+    width: 350px;
+    font-family: 'Raleway', sans-serif;
+    /* max-height: 300px; */
+}
+.navbar{
+    width: auto;
+    /* background-color: #c45eff78; */
+    background-image: linear-gradient(to right, #cc2b5e,#753a88);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(75, 75, 75, 0.822);
+    padding: 1px 1px 1px 8px;
+    margin-bottom: 5px;
+    /* box-shadow: 0 2px 3px black; */
+}
+
+#main-content{
+    /* margin-top: 2px; */
+    margin-bottom: 2px;
+    width: auto;
+    overflow-y: auto;
+}
+
+#tasks{
+    width: auto;
+}
+
+.task{
+    padding: 5px 20px 5px 10px;
+    box-shadow: 2px 2px 4px rgba(94, 122, 136, 0.568);
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(75, 75, 75, 0.822);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.del-task{
+    border-radius: 50px 0 0 50px;
+}
+.del-task:hover{
+    background-color: red;
+    color: white;
+}
+.done-task{
+    border-radius: 0 50px 50px 0;
+}
+.done-task:hover{
+    background-color: green;
+    color: white;
+}
+
+.edit-button{
+    transition: 80m;
+    padding: 10px;
+    /* margin: 3px; */
+    border: none;
+}
+.edit-button:hover{
+    box-shadow: 1px 1px 3px rgba(75, 75, 75, 0.822);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-new-task{
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px ;
+    height: 50%;
+    /* padding: 7px; */
+}
+
+#add-new-task:hover{
+    background-color: white;
+}
+
+.new-task{
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    padding: 5px;
+    width: 60%;
+}
+
+#add-task{
+    border-radius: 10px 0 0 10px;
+    height: 50%;
+}
+
+#cancel-task{
+    border-radius: 0 10px 10px 0;
+    height: 50%;
+}
+
+#add-task:hover, #cancel-task:hover{
+    background-color: white;
+}
+
+.new-task:focus{
+    outline: none !important;
+}
+
+#new-task-section{
+    transition: 0.5s;
+}
+
+.priority{
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(75, 75, 75);
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.priority:focus{
+    width: 40px;
+    outline: none !important;
+    box-shadow: 1px 1px 2px rgba(75, 75, 75, 0.822);
+}
+
+.priority:hover{
+    width: 40px;
+}

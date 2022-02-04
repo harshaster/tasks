@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Tasks",
+    "version": "1.0",
+    "description": "Helping to set your daily tasks in a chrome extension.",
+    "action": {
+        "default_popup": "tasks.html",
+        "default_title": "Your today's tasks"
+    },
+    "permissions": ["storage","scripting"]
+}
