@@ -1,11 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "Daily Tasks",
+    "name": "Karyam: Simple Task Manager",
     "version": "1.0",
-    "description": "Helping to set your daily tasks in a chrome extension.",
+    "description": "Helping you to list, observe and prioritise your tasks and get them done.",
     "action": {
         "default_popup": "tasks.html",
         "default_title": "Your today's tasks"
     },
-    "permissions": ["storage","scripting"]
+    "permissions": ["storage"],
+    "icons": {
+        "16": "karyam_icon16.png",
+        "48": "karyam_icon48.png",
+        "128": "karyam_logo.png"
+    }
 }

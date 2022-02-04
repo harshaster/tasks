@@ -41,7 +41,8 @@ function init(){
             }
         }
         else{
-            console.log("no data right now !!")
+            // console.log("no data right now !!")
+            noTasks.display="block";
         }
     })
 
@@ -70,7 +71,7 @@ function ready_task(node){
     })
 
     node.getElementsByClassName("priority")[0].onchange = function() {
-        console.log("onchange happened")
+        // console.log("onchange happened")
         let to_del = tasks_data.find((elem) => elem["id"]===node.id)
         to_del["priority"]=node.getElementsByClassName("priority")[0].value
         sort_tasks()
