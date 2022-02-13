@@ -15,6 +15,11 @@ body{
     /* box-shadow: 0 2px 3px black; */
 }
 
+.nav-brand{
+    height: 100%;
+    width: 30px;
+}
+
 #main-content{
     /* margin-top: 2px; */
     margin-bottom: 2px;
@@ -27,7 +32,7 @@ body{
 }
 
 .task{
-    padding: 5px 20px 5px 7px;
+    padding: 5px 7px 5px 7px;
     box-shadow: 2px 2px 4px rgba(94, 122, 136, 0.568);
     margin: 5px;
     border-radius: 7px;
@@ -55,14 +60,16 @@ body{
 }
 
 .edit-button{
-    transition: 80m;
-    padding: 10px;
+    transition: 80ms;
+    padding: 9px;
     /* margin: 3px; */
     border: none;
+    /* font-weight: 550; */
+    font-size: 12px;
 }
 .edit-button:hover{
     box-shadow: 1px 1px 3px rgba(75, 75, 75, 0.822);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     cursor: pointer;
 }
 
